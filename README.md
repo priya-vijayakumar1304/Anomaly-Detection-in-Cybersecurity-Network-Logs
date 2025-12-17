@@ -100,20 +100,21 @@ Anomaly-Detection-in-Cybersecurity-Network-Logs/
 
 ---
 
-## ML Pipelines (ZenML + mlflow)
+## ML Pipelines (ZenML + MLflow)
 
 ### Training Pipeline
 - Data loading and validation  
-- Feature engineering  
+- Feature engineering and preprocessing  
 - Model training and evaluation  
-- Experiment tracking with MLflow  
-- Model registration  
+- Experiment tracking using **MLflow**  
+- Model registration in **MLflow Model Registry**
 
 ### Model Deployment Strategy
-- Models loaded from **MLflow Model Registry** using alias (`production`)
-- Artifact-based loading as a fallback mechanism
+- Models are loaded from the **MLflow Model Registry** using the `production` alias  
+- Artifact-based model loading is used as a fallback mechanism when required  
 
-### Artifacts
+### Pipeline Artifacts
+
 #### Training Pipeline (ZenML)
 ![Training Pipeline](assets/anomaly_training_pipeline.png)
 
@@ -122,6 +123,7 @@ Anomaly-Detection-in-Cybersecurity-Network-Logs/
 
 #### Model Registry
 ![Model Registry](assets/model_registry.png)
+
 
 ---
 
