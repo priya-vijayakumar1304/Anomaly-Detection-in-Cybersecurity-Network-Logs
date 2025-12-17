@@ -1,9 +1,9 @@
 {
-  "roc_auc": 0.8761568576695415,
-  "precision_normal": 0.7145993413830956,
-  "recall_normal": 0.6975,
-  "f1_normal": 0.7059461413338153,
-  "precision_anomaly": 0.8596345859054564,
-  "recall_anomaly": 0.8692865222673761,
-  "f1_anomaly": 0.8644336124651085
+  "roc_auc": 0.879303566565719,
+  "precision_normal": 0.7212527553269654,
+  "recall_normal": 0.7011607142857142,
+  "f1_normal": 0.7110648315827599,
+  "precision_anomaly": 0.8615855423679749,
+  "recall_anomaly": 0.8728476266286815,
+  "f1_anomaly": 0.8671800208116546
 }

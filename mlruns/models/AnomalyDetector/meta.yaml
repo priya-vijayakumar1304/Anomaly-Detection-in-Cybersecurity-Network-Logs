@@ -1,8 +1,9 @@
 aliases:
-  production: '2'
+  production: '3'
 creation_timestamp: 1765970743186
 deployment_job_id: null
 deployment_job_state: null
-description: ''
-last_updated_timestamp: 1765970924207
+description: Anomaly Detection using Isolation Forest model, trained on normal network
+  logs (unsupervised learning)
+last_updated_timestamp: 1765974412625
 name: AnomalyDetector
