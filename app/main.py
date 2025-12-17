@@ -62,11 +62,16 @@ def predict(file: UploadFile = File(...)):
 
     preds = model.predict(X_transformed)
 
-    anomalies = (preds == -1).sum()
-    normals = (preds == 1).sum()
+    df["anomaly"] = preds
+    df["anomaly_label"] = df["anomaly"].map({-1: "Anomaly", 1: "Normal"})
 
-    return PredictionResponse(
-        total_records=len(df),
-        anomalies_detected=int(anomalies),
-        normal_records=int(normals),
-    )
+    anomalies = (df["anomaly"] == -1).sum()
+    normals = (df["anomaly"] == 1).sum()
+
+    return {
+        "total_records": len(df),
+        "anomalies_detected": int(anomalies),
+        "normal_records": int(normals),
+        "data": df.to_dict(orient="records"),
+    }
+

@@ -6,3 +6,4 @@ scikit-learn==1.7.2
 ipykernel==7.1.0
 zenml==0.93.0
 mlflow==3.7.0
+streamlit==1.52.1
