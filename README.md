@@ -3,7 +3,7 @@
 An end-to-end **machine learning and MLOps project** for detecting anomalous network traffic using the **UNSW-NB15 dataset**.  
 This project demonstrates how to design, train, deploy, and analyze an ML system in a **production-oriented setup**.
 
----
+
 ## Problem statement
 The goal of this project is to build an AI-driven anomaly detection system that identifies unusual or potentially malicious activity in network traffic using the **UNSW-NB15 cybersecurity dataset**. By applying unsupervised machine learning method - **Isolation Forest**, the model learns normal network behavior and flags deviations that may indicate cyber threats or intrusions. This project demonstrates how machine learning can enhance network security and threat detection by analyzing high-dimensional network log data.
 
