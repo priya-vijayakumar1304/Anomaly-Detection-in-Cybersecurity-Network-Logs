@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/PRIYA/OneDrive/Desktop/Portfolio Projects/Anomaly Detection
+  in Cybersecurity Network Logs/mlruns/426783136748776439/models/m-af9d6f31dc2644f881cc29cedd644a16/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-af9d6f31dc2644f881cc29cedd644a16
+model_size_bytes: 74134654
+model_uuid: m-af9d6f31dc2644f881cc29cedd644a16
+prompts: null
+run_id: 22e9631d3e5843c9bf9b5e330162dda5
+utc_time_created: '2025-12-17 10:29:57.378363'

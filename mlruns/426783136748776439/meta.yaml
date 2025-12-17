@@ -1,0 +1,7 @@
+artifact_location: file:C:/Users/PRIYA/OneDrive/Desktop/Portfolio Projects/Anomaly
+  Detection in Cybersecurity Network Logs/mlruns/426783136748776439
+creation_time: 1765967390857
+experiment_id: '426783136748776439'
+last_update_time: 1765967390857
+lifecycle_stage: active
+name: anomaly_training_pipeline

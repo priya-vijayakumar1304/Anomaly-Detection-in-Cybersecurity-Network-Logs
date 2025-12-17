@@ -1,0 +1,11 @@
+artifact_location: file:C:/Users/PRIYA/OneDrive/Desktop/Portfolio Projects/Anomaly
+  Detection in Cybersecurity Network Logs/mlruns/426783136748776439/models/m-1a4e3dfc14f54a688bba4afe53d76284/artifacts
+creation_timestamp: 1765967519752
+experiment_id: '426783136748776439'
+last_updated_timestamp: 1765967527337
+model_id: m-1a4e3dfc14f54a688bba4afe53d76284
+model_type: null
+name: model
+source_run_id: 5264265ea493430bae811377b4fb024e
+status: 2
+status_message: null

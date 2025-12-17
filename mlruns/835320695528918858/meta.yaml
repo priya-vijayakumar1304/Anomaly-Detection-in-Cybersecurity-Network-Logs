@@ -1,0 +1,7 @@
+artifact_location: file:C:/Users/PRIYA/OneDrive/Desktop/Portfolio Projects/Anomaly
+  Detection in Cybersecurity Network Logs/mlruns/835320695528918858
+creation_time: 1765962895264
+experiment_id: '835320695528918858'
+last_update_time: 1765962895264
+lifecycle_stage: active
+name: train_and_evaluate_model

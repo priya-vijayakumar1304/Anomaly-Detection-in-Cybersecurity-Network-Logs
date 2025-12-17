@@ -1,5 +1,6 @@
 from zenml import step
 import mlflow
+import mlflow.sklearn
 from typing import Dict, Tuple
 from typing_extensions import Annotated
 
@@ -58,7 +59,7 @@ def train_and_evaluate_model(
         "f1_anomaly": report["1"]["f1-score"],
     }
 
-    # Log metrics to MLflow
+    # Log parameters, metrics and model to MLflow
     mlflow.log_params({
         "n_estimators": 300,
         "max_samples": 1.0,
@@ -68,6 +69,11 @@ def train_and_evaluate_model(
 
     for k, v in metrics.items():
         mlflow.log_metric(k, v)
+    
+    mlflow.sklearn.log_model(
+    sk_model=model,
+    artifact_path="model",
+    )
 
     print("Model training & evaluation completed")
     print("ROC-AUC:", roc_auc)

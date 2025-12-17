@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/PRIYA/OneDrive/Desktop/Portfolio Projects/Anomaly Detection
+  in Cybersecurity Network Logs/mlruns/426783136748776439/5264265ea493430bae811377b4fb024e/artifacts
+end_time: 1765967527488
+entry_point_name: ''
+experiment_id: '426783136748776439'
+lifecycle_stage: active
+run_id: 5264265ea493430bae811377b4fb024e
+run_name: anomaly_training_pipeline-2025_12_17-10_31_30_772219
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765967514500
+status: 3
+tags: []
+user_id: PRIYA

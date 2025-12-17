@@ -1,0 +1,16 @@
+creation_timestamp: 1765970787004
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1765970787004
+model_id: ''
+name: AnomalyDetector
+run_id: 5264265ea493430bae811377b4fb024e
+run_link: ''
+source: models:/AnomalyDetector/1
+status: READY
+status_message: null
+storage_location: file:C:/Users/PRIYA/OneDrive/Desktop/Portfolio Projects/Anomaly
+  Detection in Cybersecurity Network Logs/mlruns/426783136748776439/models/m-1a4e3dfc14f54a688bba4afe53d76284/artifacts
+user_id: null
+version: 2
