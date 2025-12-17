@@ -26,8 +26,6 @@ UNSW-NB15 Cybersecurity Dataset : https://research.unsw.edu.au/projects/unsw-nb1
 - **Training strategy:** Train on normal traffic, detect deviations  
 - **Output:** Normal / Anomaly
 
----
-
 ### Tech Stack
 
 - **ML:** Python, Pandas, NumPy, Scikit-learn  
