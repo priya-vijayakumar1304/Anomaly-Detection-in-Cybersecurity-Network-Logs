@@ -1,9 +1,10 @@
 from zenml import step
 import pandas as pd
 import numpy as np
+from typing_extensions import Annotated
 
 @step
-def load_data() -> pd.DataFrame:
+def load_data() -> Annotated[pd.DataFrame,"Clean_df"]:
     """
     - Loads UNSW_NB15 dataset
     - Perform data cleaning

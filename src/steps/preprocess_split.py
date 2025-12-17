@@ -1,5 +1,6 @@
 from zenml import step
 from typing import Tuple
+from typing_extensions import Annotated
 
 import pandas as pd
 import numpy as np
@@ -11,7 +12,12 @@ from sklearn.model_selection import train_test_split
 @step
 def preprocess_and_split(
     df: pd.DataFrame,
-) -> Tuple[np.ndarray, np.ndarray, np.ndarray, ColumnTransformer]:
+) -> Tuple[
+    Annotated[np.ndarray, "X_train"],
+    Annotated[np.ndarray, "X_test"],
+    Annotated[np.ndarray, "y_test"],
+    Annotated[ColumnTransformer, "preprocessor"],
+]:
     """
     Preprocess data and split into train/test sets.
 
