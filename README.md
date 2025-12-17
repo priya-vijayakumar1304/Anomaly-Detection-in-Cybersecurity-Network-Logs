@@ -113,6 +113,16 @@ Anomaly-Detection-in-Cybersecurity-Network-Logs/
 - Models loaded from **MLflow Model Registry** using alias (`production`)
 - Artifact-based loading as a fallback mechanism
 
+### Artifacts
+#### Training Pipeline (ZenML)
+![Training Pipeline](assets/anomaly_training_pipeline.png)
+
+#### Experiment Tracking (MLflow)
+![MLflow Experiments](assets/mlflow_experiment_tracking.png)
+
+#### Model Registry
+![Model Registry](assets/model_registry.png)
+
 ---
 
 ## Inference API (FastAPI)
@@ -201,64 +211,3 @@ http://localhost:8501
 - Model registry–based deployment
 - Production-style API design
 - Outcome-focused analytics for anomaly detection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Mlflow:
-
-mlflow ui --backend-store-uri "file:./mlruns"
-
-mlflow ui: http://127.0.0.1:5000/
-
-Zenml:
-
-zenml up --blocking
-
-zenml dashboard: http://127.0.0.1:8237/ 
-
-FastAPI:
-
-uvicorn app.main:app --reload
-
-http://127.0.0.1:8000/
-
-Streamlit:
-
-http://localhost:8501/
-
-
-
