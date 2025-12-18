@@ -1,6 +1,6 @@
 # Anomaly Detection in Cybersecurity Network Logs
 
-An end-to-end **machine learning and MLOps project** for detecting anomalous network traffic using the **UNSW-NB15 dataset**.  This project demonstrates how to design, train, deploy, and analyze an ML system in a **production-oriented setup**.
+An end-to-end **machine learning and MLOps project** for detecting anomalous network traffic using the **UNSW-NB15 dataset**.  This project enables reproducible experimentation, model versioning, and production-style deployment workflows using modern MLOps tooling.
 
 
 ## Problem statement
